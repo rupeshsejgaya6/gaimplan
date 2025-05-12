@@ -1,0 +1,28 @@
+# Ignore node modules
+node_modules
+
+# Ignore logs
+*.log
+logs
+
+# Ignore temp files
+*.tmp
+*.swp
+.DS_Store
+npm-debug.log*
+
+# Ignore local environment variables
+.env
+
+# Ignore build and cache directories
+
+.cache
+
+# Ignore test directories
+tests
+coverage
+.jest
+
+# Ignore Docker files and configs not needed in the container
+Dockerfile
+.dockerignore
