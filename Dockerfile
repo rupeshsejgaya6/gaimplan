@@ -26,5 +26,5 @@ RUN npm ci --omit=dev
 COPY --from=builder /app /app
 
 # Run the migrations first
-CMD ["sh", "-c", "npx typeorm-ts-node-commonjs migration:run -d build/database/data-source.js && node build/main.js"]
+# CMD ["sh", "-c", "npx typeorm-ts-node-commonjs migration:run -d build/database/data-source.js && node build/main.js"]
 
